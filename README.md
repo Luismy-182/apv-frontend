@@ -19,3 +19,11 @@ Interfaz construida en React que consume una API REST desarrollada en Node.js.
 
 ## 🔗 Backend
 - https://github.com/Luismy-182/apv-backend
+
+## ⚙️ Instalación
+```bash
+- git clone https://github.com/Luismy-182/apv-frontend.git
+- cd apv-frontend
+- npm install
+- npm run dev
+
