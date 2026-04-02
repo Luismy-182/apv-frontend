@@ -54,7 +54,7 @@ useEffect(()=>{
       <div className="">
         {!cargando &&
         <Alertas
-          alerta={alertas}
+          alertas={alertas}
           />
         }
 

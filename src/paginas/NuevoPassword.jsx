@@ -77,7 +77,7 @@ function NuevoPassword() {
         {
 
           msg && <Alertas
-            alerta={alertas}
+            alertas={alertas}
           />
         }
 
@@ -87,7 +87,14 @@ function NuevoPassword() {
             <form onSubmit={handleSubmit}>
               <div className='my-5'>
                 <label className="block uppercase text-gray-600 text-xl font-bold">
-                  Password
+                  Nuevo Password
+                </label>
+                <input type="password" placeholder='Tu password' className='border w-full p-3 mt-3 bg-gray-50 rounded-xl'
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                />
+                <label className="block uppercase text-gray-600 text-xl font-bold mt-2">
+                  Confirma Tu Password
                 </label>
                 <input type="password" placeholder='Tu password' className='border w-full p-3 mt-3 bg-gray-50 rounded-xl'
                   value={password}

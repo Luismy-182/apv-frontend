@@ -66,7 +66,7 @@ const Registrar = () => {
         {
 
           msg && <Alertas
-            alerta={alertas}
+            alertas={alertas}
           />
         }
         <form onSubmit={handleSubmit}>
